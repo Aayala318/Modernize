@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+}
+.container{
+    background-color: black;
+    color: snow;
+    width: 975px;
+}
+.head{
+    background-color: #1c1c1c;
+    height: 67px;
+}
+    .head h4{
+        float: right;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+.navbar{
+    background-color: #363636;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-right: 400px;
+    padding-top: 15px;
+    height: 30px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    .navbar a{
+        color: snow;
+        text-decoration-line: none;
+    }
+.mainpic{
+    background-color: #383838;
+    height: 360px;
+}
+.infotags{
+    background-color: #1c1c1c;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-left: 5px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    height: 90px;
+}
+    .infotags h3{
+        color: #fa7319;
+        text-align: left;
+        padding-bottom: 3px;
+        padding-top: 5px;
+        padding-right: 15px;
+    }
+    .infotags p{
+        text-align: left;
+        font-size: small;
+        width: 140px;
+        padding-right: 15px;
+        color: snow;
+        font-family: 'Times New Roman', Times, serif;
+    }
+.buynow{
+    background-color: black;
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 30px;
+    text-align: left;
+    display: inline-flex;
+}
+    .buynow h2{
+        color: snow;
+        width: 700px;
+        padding-left: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .buynow p{
+        color: snow;
+        width: 620px;
+        padding-top: 7px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        font-size: 14px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+.buyb button{
+    background-color:  #fc9c00;
+    margin-left: 75px;
+    margin-top: 17px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+}
+.buyb a{
+    text-decoration-line: none;
+    color: whitesmoke;
+    font-style: italic;
+    font-size: medium;
+}
+.portfolio{
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+    .portfolio h4{
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-right: 750px;
+        font-size: large;
+    }
+    .portfolio a{
+        color: #fa7319;
+        text-decoration-line: none;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+.portitems{
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 25px;
+}
+.port img{
+    border: 3px solid gray;
+}
+.port h4{
+    color: #fa7319;
+    text-align: left;
+    padding-top: 10px;
+}
+.port p{
+    color: snow;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    padding-top: 7px;
+}
+
+.btt{
+    background-color: #1c1c1c;
+    padding-left: 880px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+    .btt a{
+        text-decoration-line: none;
+        font-size: 11px;
+        color: gray;
+    }
